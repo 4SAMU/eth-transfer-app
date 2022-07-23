@@ -1,0 +1,270 @@
+.Home-Profile-btn {
+  position: fixed;
+  width: 300px;
+  height: 54px;
+  right: 10px;
+  top: 65px;
+  display: flex;
+}
+
+.profile {
+  top: 5px;
+  left: 10px;
+  border: none;
+  background: transparent;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 67px;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.profile a {
+  color: white;
+}
+
+nav {
+  position: fixed;
+  width: 400px;
+  height: 55px;
+  top: 165px;
+  background: #0574ac;
+  border-bottom: #e8ecee;
+  border-radius: 20px;
+  display: flex;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.connectwallet {
+  position: relative;
+  width: 271px;
+  height: 54px;
+  right: -850px;
+  top: -70px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  background: #0574ac;
+  border-radius: 25%;
+  color: #d9d9d9;
+  border: none;
+}
+.connectwallet:hover {
+  background: #26a4e4;
+}
+
+.buy-button {
+  position: absolute;
+  width: max-content;
+  height: 30px;
+  left: 32px;
+  top: 14px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #0574ac;
+  border: none;
+  background: transparent;
+}
+
+.transfer-button {
+  position: absolute;
+  width: max-content;
+  height: 30px;
+  right: 32px;
+  top: 14px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #113344;
+  border: none;
+  background: transparent;
+}
+
+.sell_btn {
+  position: absolute;
+  width: max-content;
+  height: 30px;
+  left: 170px;
+  top: 14px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  border: none;
+  background: transparent;
+}
+
+nav a {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  border-bottom: none;
+  outline: 0ch;
+}
+
+.active {
+  color: white;
+  background-color: #a8b341;
+  font-size: x-large;
+  border-radius: 7px 1px 7px 1px;
+}
+
+.navbar a:hover {
+  color: #641c50;
+  font-size: x-large;
+}
+
+.account_box {
+  position: absolute;
+  width: 1112px;
+  height: 192px;
+  left: 404px;
+  top: 180px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: transparent;
+  border-radius: 25px;
+  border-bottom: 1px solid #d9d9d9;
+  border-top: 1px solid #d9d9d9;
+}
+
+.account_box-text {
+  position: absolute;
+  width: 335px;
+  height: 46px;
+  left: 200px;
+  top: 40px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 54px;
+
+  color: #fff;
+}
+
+.input_address_text {
+  position: absolute;
+  width: max-content;
+  height: 33px;
+  left: 200px;
+  top: 104px;
+  border: none;
+  background: transparent;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+  outline: 0ch;
+
+  color: #fff;
+}
+
+.input_address_notconnect {
+  position: absolute;
+  width: max-content;
+  height: 33px;
+  left: 200px;
+  top: 104px;
+  border: none;
+  background: transparent;
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+  outline: 0ch;
+  color: red;
+}
+
+.green_circle {
+  position: absolute;
+  width: 110px;
+  height: 113px;
+  left: 55px;
+  top: 38px;
+  border: 1px solid #54aad1;
+  border-radius: 50%;
+}
+
+img {
+  position: absolute;
+  height: 100%;
+}
+
+.acc-balance {
+  position: absolute;
+  width: max-content;
+  height: 42px;
+  right: 55px;
+  top: 38px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 54px;
+
+  color: #fff;
+}
+
+.acc-balance-txt {
+  position: absolute;
+  width: 244px;
+  height: 42px;
+  right: 55px;
+  top: 99px;
+  border: none;
+  background: transparent;
+  outline: 0ch;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: end;
+  color: #fff;
+}
+
+@media screen and (max-width: 992px) {
+  .Home-Profile-btn {
+    position: fixed;
+    width: max-content;
+    height: max-content;
+    right: 20px;
+    top: 20px;
+    display: flex;
+  }
+}
+
+/*=====================for image spin========================*/
+@media (prefers-reduced-motion: no-preference) {
+  img {
+    animation: img-spin infinite 10s linear;
+  }
+}
+
+@keyframes img-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
