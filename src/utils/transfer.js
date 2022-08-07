@@ -1,6 +1,6 @@
 const { createAlchemyWeb3 } = require("@alch/alchemy-web3")
-const web3 = createAlchemyWeb3("https://eth-goerli.g.alchemy.com/v2/R5rHnKGPRAG2_lMkMh3ilNECc01NBLC5")
-const privatekey = "e3f895b861ab8a7316eee903cbb7fe5b0003abb95de8bcdadae26e64fc8d23b4"
+const web3 = createAlchemyWeb3(`https://eth-goerli.g.alchemy.com/v2/${API_KEY}`)
+const privatekey = "your_wallet_private_key"
 
 export const transferAmount = async (addressX, amount) => {
     try {
