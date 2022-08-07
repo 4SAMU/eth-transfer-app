@@ -2,7 +2,7 @@
 //     try {
 //         const { createAlchemyWeb3 } = require("@alch/alchemy-web3")
 //         // Initialize an alchemy-web3 instance:
-//         const web3 = createAlchemyWeb3(`https://eth-mainnet.g.alchemy.com/v2/R5rHnKGPRAG2_lMkMh3ilNECc01NBLC5`);
+//         const web3 = createAlchemyWeb3(`https://eth-goerli.g.alchemy.com/v2/${API_KEY}`);
 //         // The token address we want to query for metadata:
 //         const metadata = await web3.alchemy.getTokenMetadata("0x1985365e9f78359a9B6AD760e32412f4a445E862");
 //         console.log("TOKEN METADATA->");
